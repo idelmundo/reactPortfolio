@@ -1,17 +1,15 @@
-import React from 'react';
-import './App.css';
-import navbar from "./component/navbar"
+import React from "react";
+// import HelloBootstrap from "./component/HelloBootstrap";
+import Navbar from "./component/navbar";
 
-class App extends React.Component {
-  constructor(props){
-    super(props)
-    this.state = {}
-  }
-  render() {
+function App() {
   return (
-    <div> hello world</div>
+    <div>
+  
+  <Navbar/>
+  </div>
   )
-  };
 }
 
 export default App;
+
