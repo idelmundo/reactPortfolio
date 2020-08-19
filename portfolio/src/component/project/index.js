@@ -16,8 +16,9 @@ function projects() {
           // alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>hangryFixed</h3>
+          <p>As a picky and indecisive eater I want to search restaurants near me That fullfills some search criteria such as price, location and offering take-out. As a gathering of big group of people I want an application that will randomly choose a
+                    restaurant So that we don't waste time figuring out where to eat.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
