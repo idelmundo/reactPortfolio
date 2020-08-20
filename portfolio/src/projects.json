@@ -1,0 +1,50 @@
+[
+    {
+    "id":1,
+    "name": "Happy Paw",
+    "description": "Socializing your pets is extremely important. If you’ve ever owned a pet you know that it’s needed in the development of a pets personality and allows them to grow and be used to interacting with other animals. We wanted to create an environment where users can meet other users with like interests and pets.",
+    "img":"https://glacial-brook-33571.herokuapp.com/img/husky.png",
+    "deployedLink": "https://happypaw.herokuapp.com/login",
+    "githubLink": "https://github.com/idelmundo/project-2"
+    },
+    {
+        "id":2,
+        "name": "Hangry Fixed",
+        "description": "As a picky and indecisive eater I want to search restaurants near me That fullfills some search criteria such as price, location and offering take-out. As a gathering of big group of people I want an application that will randomly choose a restaurant So that we don't waste time figuring out where to eat..",
+        "img":"https://glacial-brook-33571.herokuapp.com/img/hangry.png",
+        "deployedLink": "https://happypaw.herokuapp.com/login",
+        "githubLink": "https://github.com/idelmundo/project-2"
+        },
+        {
+            "id":3,
+            "name": "Note Taker",
+            "description": "Application that allows users to save, write, and delete notes to keep track of tasks or items. Created with JavaScript, Node Js, and an Express backend handling API routes to retrieve data",
+            "img":"https://glacial-brook-33571.herokuapp.com/img/note.png",
+            "deployedLink": "https://stormy-brushlands-00470.herokuapp.com/",
+            "githubLink": "https://github.com/idelmundo/noteTaker"
+            },
+            {
+                "id":4,
+                "name": "User Directory",
+                "description": "In this project we had to make a user directory for employee who wants to look for there co-workers information.",
+                "img":"https://glacial-brook-33571.herokuapp.com/img/empdir.png",
+                "deployedLink": "https://idelmundo.github.io/userdirectory/",
+                "githubLink": "https://github.com/idelmundo/userdirectory"
+                },
+                {
+                    "id":5,
+                    "name": "Fitness Tracker",
+                    "description": "As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.",
+                    "img":"https://glacial-brook-33571.herokuapp.com/img/fitness.png",
+                    "deployedLink": "https://shrouded-thicket-16171.herokuapp.com/stats",
+                    "githubLink": "https://github.com/idelmundo/fitness "
+                    },
+                    {
+                        "id":6,
+                        "name": "employeeTracker",
+                        "description": "Application for the onwer to oversee how much his/her are getting paid, edit title, update employee.",
+                        "img":"https://glacial-brook-33571.herokuapp.com/img//employee.png",
+                        "deployedLink": "https://github.com/idelmundo/employeeTracker",
+                        "githubLink": "https://github.com/idelmundo/employeeTracker"
+                        }
+]

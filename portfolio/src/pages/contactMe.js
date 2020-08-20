@@ -1,4 +1,5 @@
 import React from "react"
+import PDF from "../component/image/Isaias Resume 792020.pdf"
 
 function contactMe() {
     return (
@@ -32,6 +33,7 @@ function contactMe() {
                     <h4 className="text-uppercase m-0">Phone</h4>
                     <hr className="my-4" />
                     <div className="small text-black-50">+1 (415) 567-2222</div>
+                    <div className = "App"> <a href = {PDF} target = "_blank">Here's my resume feel free to check it out.</a> </div>
                 </div>
             </div>
         </div>

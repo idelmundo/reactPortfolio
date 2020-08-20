@@ -1,21 +1,35 @@
 import React from "react";
 // import HelloBootstrap from "./component/HelloBootstrap";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./component/navbar";
 import Header from "./component/header";
-import Aboutme from "./component/aboutMe";
-import Project from "./component/project";
-import Contactme from "./component/contactMe";
+import aboutMe from "./pages/aboutMe"
+import project from "./pages/project";
+import contactMe from "./pages/contactMe";
+import Wrapper from "./component/wrapper";
+import Footer from "./component/footer";
 
 function App() {
   return (
+    <Router>
     <div>
   <Navbar/>
+  <br></br>
   <Header/>
-  <Aboutme/>
-  <Project/>
-  <Contactme/>
+<br></br>
+<Route exact path= "/" component={aboutMe} /> 
+<Route exact path= "/aboutMe" component={aboutMe} />  
+  <Wrapper>
+  {/* <Route exact path= "/" component={aboutMe} />  */}
+  {/* <Route exact path= "/aboutMe" component={aboutMe} />   */}
+  <Route exact path= "/project" component={project} />  
+  <Route exact path= "/contactMe" component={contactMe} />
+  </Wrapper>
+  <br></br>
   
   </div>
+  <Footer/>
+  </Router>
   )
 }
 

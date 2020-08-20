@@ -1,11 +1,9 @@
 import React from "react";
-import aboutMe from "../aboutMe";
-import projects from "../project";
-import contactMe from "../contactMe";
+import { Link } from "react-router-dom";
 
 function navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="nav">
+        <nav className="navbar navbar-light navbar-expand-md bg-faded justify-content-center bg-secondary" id="nav">
         <div className="container">
             {/* <a className="navbar-brand js-scroll-trigger"></a> */}
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,9 +12,9 @@ function navbar() {
             </button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav ml-auto">
-                <button onClick={aboutMe} >About Me</button>
-                <button onClick={projects} >Projects</button>
-                <button onClick={contactMe} >Contact Me</button>
+                <Link className="nav-link " to="/aboutMe"><span className="text-white">About Me</span></Link>
+                <Link className="nav-link " to="/project"><span className="text-white">Projects</span></Link>
+                <Link className="nav-link " to="/contactMe"><span className="text-white">Contact Me</span></Link>
                 </ul>
             </div>
         </div>
