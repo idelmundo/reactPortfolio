@@ -1,5 +1,6 @@
 import React from "react"
 import PDF from "../component/image/Isaias Resume 792020.pdf"
+import "./contactMeStyle.css"
 
 function contactMe() {
     return (
@@ -19,10 +20,12 @@ function contactMe() {
         <div className="col-md-4 mb-3 mb-md-0">
             <div className="card py-4 h-100">
                 <div className="card-body text-center">
-                    <i className="fas fa-envelope text-primary mb-2"></i>
                     <h4 className="text-uppercase m-0">Email</h4>
                     <hr className="my-4" />
-                    <div className="small text-black-50"><a href="#!">idelmundo68@gmail.com</a></div>
+                    <a className="btn btn-secondary btn-lg mr-1" href="mailto:idelmundo68@gmail.com"
+                  type="button" role="button"><i className="fa fa-paper-plane"></i></a>
+                    <a className="btn btn-secondary btn-lg mr-1" href="https://www.linkedin.com/in/isaiasdelmundo/ "
+                  role="button"><i className="fa fa-linkedin-square"></i></a>
                 </div>
             </div>
         </div>
@@ -33,16 +36,14 @@ function contactMe() {
                     <h4 className="text-uppercase m-0">Phone</h4>
                     <hr className="my-4" />
                     <div className="small text-black-50">+1 (415) 567-2222</div>
-                    <div className = "App"> <a href = {PDF} target = "_blank">Here's my resume feel free to check it out.</a> </div>
+                    <div className = "App"> Here's my resume </div>
+                    <a className="btn btn-secondary btn-lg mr-1" href={PDF}
+                  type="button" role="button"><i className="fa fa-file"></i></a>
                 </div>
             </div>
         </div>
     </div>
-    <div className="social d-flex justify-content-center">
-        <a className="mx-2" href="#!"><i className="fab fa-twitter"></i></a>
-        <a className="mx-2" href="#!"><i className="fab fa-facebook-f"></i></a>
-        <a className="mx-2" href="#!"><i className="fab fa-github"></i></a>
-    </div>
+
 </div>
 </section>
     )}

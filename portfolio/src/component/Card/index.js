@@ -21,36 +21,6 @@ function projectCard(props) {
   </Card.Body>
 </Card>
     
-    
-    
-    
-    
-    
-    
-    // <div className="card">
-    //   <div className="img-container">
-    //     <img alt={props.name} src={props.img} />
-    //   </div>
-    //   <div className="content">
-    //     <ul>
-    //       <li>
-    //         <strong>Name:</strong> {props.name}
-    //       </li>
-    //       <li>
-    //         <strong>description:</strong> {props.description}
-    //       </li>
-    //       <li>
-    //         <strong>img:</strong> {props.img}
-    //       </li>
-    //       <li>
-    //         <strong>deployedLink:</strong> {props.deployedLink}
-    //       </li>
-    //       <li>
-    //         <strong>githubLink:</strong> {props.githubLink}
-    //       </li>
-    //     </ul>
-    //   </div>
-    // </div>
   );
 }
 
