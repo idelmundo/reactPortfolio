@@ -20,10 +20,7 @@ function App() {
 <Route exact path= "/" component={aboutMe} /> 
 <Route exact path= "/aboutMe" component={aboutMe} />  
   <Wrapper>
-  {/* <Route exact path= "/" component={aboutMe} />  */}
-  {/* <Route exact path= "/aboutMe" component={aboutMe} />   */}
   <Route exact path= "/project" component={project} />  
-  {/* <Route exact path= "/contactMe" component={contactMe} /> */}
   </Wrapper>
   <br></br>
   <Route exact path= "/contactMe" component={contactMe} />
