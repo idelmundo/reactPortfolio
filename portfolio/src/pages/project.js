@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Wrapper from "../component/wrapper";
 import Card from "../component/Card";
 import project from "../projects.json"
+import "./ProjectStyle.css"
 
 class projects extends Component{
   state = { 
@@ -14,7 +15,7 @@ class projects extends Component{
       <Wrapper>
 
       {this.state.projects.map(project => (
-      <Card 
+      <Card className = "examples"
       name = {project.name}
       description = {project.description}
       img = {project.img}
